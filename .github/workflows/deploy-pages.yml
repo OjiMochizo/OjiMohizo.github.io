@@ -54,5 +54,7 @@ jobs:
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ env.REPO_URL }}.git
           git push --force origin pages
 
-        env:
-          CI: true
+        env:  
+             REPO_URL: "OjiMochizo/OjiMohizo.github.io"
+             BUILD_PATH: ".vitepress/dist"
+             CUSTOM_DOMAIN: "OjiMohizo.github.io"
