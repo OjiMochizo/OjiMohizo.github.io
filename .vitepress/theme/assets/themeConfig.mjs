@@ -3,9 +3,9 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "何でずっとずっと失败とく",
     // 站点描述
-    description: "Hello World",
+    description: "伪りの理、馬鹿と眩しい世界",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
